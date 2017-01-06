@@ -2298,6 +2298,30 @@
 
 /* Icon */
 
+	/* Google Scholar hacks */
+	@media screen and (min-width: 1240px) {
+		.scholar {
+			margin-top:-100px;
+			width: 48px;
+			height: 48px;
+		}
+		
+		.scholar-inside {
+			padding: 14px;
+		}
+	}
+	
+	@media screen and (max-width: 1239px) {
+		.scholar {
+			width: 42px;
+			height: 42px;
+		}
+		
+		.scholar-inside {
+			padding: 12px;
+		}
+	}
+
 	.icon {
 		text-decoration: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
